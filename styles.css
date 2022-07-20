@@ -1,0 +1,56 @@
+.navlevel {
+    background-color: #1f2937;
+    margin: -8px;
+    padding: 12px;
+    border-radius: 2px;
+}
+.navbar {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-right: 240px;
+    margin-top: -25px;
+    gap: 20px;
+}
+.headerlogo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.herotext {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-bottom: 170px;
+    flex-direction: column;
+    gap: 8px;
+}
+.herotext .one {
+    font-size: 48px;
+    font-weight: bolder ;
+    color:#f9faf8;
+    flex-wrap: wrap;
+}
+.herotext .two {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.herotext .three {
+    font-size: 18px;
+
+    cursor: pointer;
+    text-align: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    margin-right: 270px;
+    padding: 10px 4px;
+    border-radius: 10px;
+}
+.herotext .three:hover {
+    background-color:slategray;
+}
